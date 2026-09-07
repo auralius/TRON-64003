@@ -60,7 +60,3 @@ A regression comparison between the original firmware and an experimental traced
 ## 🏆 TRON Competition
 
 This release documents the μT-Kernel + Noodle + CUTE-YOLO implementation for the TRON competition. The project demonstrates how RTOS task coordination and managed neural-network memory can be combined on a constrained embedded platform.
-
-## 📄 Documentation
-
-The top-level README explains the system architecture, Noodle, and the `.cute` model format. The application README provides the technical build and deployment reference.
