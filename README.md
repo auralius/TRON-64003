@@ -91,13 +91,15 @@ The image is drawn before inference because inference quantizes the shared input
 
 ## What is Noodle?
 
-**Noodle** is the project's C/C++ inference framework. It provides the tensor operations and memory-management machinery used by the detector.
+**Noodle** is our in-house C/C++ inference framework for resource-constrained embedded systems. It provides the tensor operations and memory-management machinery used by CUTE-YOLO.
+
+Project website: [Noodle](https://auralius.github.io/noodle/)
 
 The relevant memory hierarchy is:
 
-- **NoodleTensor:** logical shape, type, quantization information, and buffer association.
-- **NoodleBuffer:** retained capacity that can grow as needed.
-- **NoodleArena:** physical placement of activation buffers, including packed storage and relocation when the arena expands.
+* **NoodleTensor:** logical shape, type, quantization information, and buffer association.
+* **NoodleBuffer:** retained capacity that can grow as needed.
+* **NoodleArena:** physical placement of activation buffers, including packed storage and relocation when the arena expands.
 
 This lets the implementation reuse intermediate storage rather than allocating a separate full-sized activation array for every network layer. The micro:bit port connects Noodle's allocator to the μT-Kernel allocation functions.
 
