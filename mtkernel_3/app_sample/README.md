@@ -3,8 +3,6 @@
 **Status:** Original working full-inference firmware
 **Target:** micro:bit V2 (nRF52833), μT-Kernel 3.0, Noodle INT8
 
-This README replaces the obsolete standalone Stem-1 test instructions.
-
 ## 1. Overview
 
 Cute-YOLO runs a complete, single-class INT8 object detector on the micro:bit. The PC supplies a 128 × 128 grayscale image; the micro:bit performs inference and decode/NMS, draws the image and detection boxes on the attached LCD, and returns the detections over serial.
