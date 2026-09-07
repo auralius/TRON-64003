@@ -1,6 +1,8 @@
 # Release v0.1.0-beta — Initial Beta Release
 
-Initial beta release of **CUTE-YOLO on micro:bit V2**, integrating μT-Kernel 3.0 and the Noodle INT8 inference framework.
+Initial beta release of **CUTE-YOLO on micro:bit V2**, integrating μT-Kernel 3.0 and the Noodle INT8 inference framework. Our codes are located in `/mtkernel_3
+/app_sample/`.
+
 
 ## 🎯 Overview
 
