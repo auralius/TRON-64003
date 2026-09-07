@@ -168,13 +168,3 @@ The CD sample tracer was demonstrated successfully. The later Cute-YOLO one-shot
 
 Keep the tracer experiment isolated. Do not copy its startup, driver, or one-shot trace changes into the original working project merely to build or run Cute-YOLO.
 
-## 9. Historical note
-
-The previous README documented only Stem 1:
-
-```text
-1 × 128 × 128 → 8 × 64 × 64 (32,768 INT8 outputs)
-```
-
-That was an earlier byte-exact kernel test. It has been superseded by the complete flash-backed detector and the current `CUTE`/`LOGT` protocol. The old `send_stem1_test.py` and `*.bak` files may be retained separately for historical debugging, but they are not required for this release.
-
