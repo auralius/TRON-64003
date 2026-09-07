@@ -156,15 +156,5 @@ For reproducible comparisons, keep the same firmware, `.cute` model, input image
 
 ## 7. Noodle arena configuration
 
-`NOODLE_BUFFER_ARENA_INITIAL_BYTES` is an initial allocation setting, not a maximum arena size. The source has a 64-byte fallback; an effective build-time override may change it. Preserve the configuration of the working build rather than changing the arena during unrelated tests.
-
-A later integration experiment required a 48 KiB initial reservation to avoid repeated growth/allocation failure. That observation does not establish that the original working firmware had the same failure. If allocation is investigated again, record the effective build flags, initial capacity, peak arena usage, and actual failure point.
-
-## 8. Task tracer experiment
-
-The separate `tasktracer/` directory contains the CD tracer sample and experimental Cute-YOLO integration. It is not the original working firmware and is not required for normal inference, deployment, or the existing `STAT` measurements.
-
-The CD sample tracer was demonstrated successfully. The later Cute-YOLO one-shot integration produced a matching raw inference head, but the detection response was truncated during the serial handoff. Captured tracer logs also reported lost events; an experimental UART drain patch was reversed after a HardFault. Those captures must not be presented as loss-free scheduling or timing evidence.
-
-Keep the tracer experiment isolated. Do not copy its startup, driver, or one-shot trace changes into the original working project merely to build or run Cute-YOLO.
+`NOODLE_BUFFER_ARENA_INITIAL_BYTES` is an initial allocation setting, not a maximum arena size. The source has a 64-byte fallback; an effective build-time override may change it. 
 
