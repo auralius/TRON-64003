@@ -3,11 +3,13 @@
 **Configurable Ultra-lightweight Tiny Embedded YOLO**  
 **TRON competition project — μT-Kernel 3.0 + Noodle INT8**
 
-CUTE-YOLO is a compact, single-class object detector designed for embedded systems with limited memory. This project demonstrates a complete face-detection pipeline on a micro:bit V2: a host sends an image, the microcontroller executes the neural network, and the result is drawn on an attached LCD and returned to the host.
+CUTE-YOLO (**Configurable Ultra-lightweight Tiny Embedded YOLO**) is a compact, single-class object detector designed for embedded systems with limited memory. The project originated in our [CUTE-YOLO ESP32 repository](https://github.com/Student-Embedded-Control-and-AI-Fest/Cute-YOLO), where the detector and its supporting development tools were established.
+
+This TRON competition project brings CUTE-YOLO to the **micro:bit V2 using μT-Kernel 3.0 and our in-house Noodle inference framework**. A host sends a 128 × 128 grayscale image, the microcontroller executes the neural network, and the result is drawn on an attached LCD and returned to the host.
 
 The contribution is not simply running a small neural network. It is the integration of **flash-backed model parameters, Noodle's managed activation memory, and an RTOS-coordinated image-processing pipeline** on a constrained microcontroller.
 
-The current micro:bit release uses a **fixed five-hybrid-block model**. “Configurable” is the CUTE family name and the direction of the separate N-layer ESP32 project; this firmware does not yet load arbitrary network topologies.
+The current micro:bit release uses a **fixed five-hybrid-block model** derived from the ESP32 project. The separate **N-layer CUTE-YOLO** continuation explores configurable network depth on ESP32; this micro:bit firmware does not yet load arbitrary network topologies.
 
 ## What the demonstration does
 
