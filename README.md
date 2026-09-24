@@ -2,7 +2,7 @@
 
 **Configurable Ultra-lightweight Tiny Embedded YOLO**
 
-CUTE-YOLO is a compact single-class object detector for constrained microcontrollers. These demonstrations run Noodle INT8 inference under μT-Kernel 3.0. A model is packaged as a separate CUTE v2 `.cute` file and deployed over USB serial; training is not needed to try a prepared model. In the model name, **H** is the number of hybrid blocks and **M** is the number of hidden head layers. **H6/M1** is the model used for the current demonstration.
+CUTE-YOLO is a compact single-class object detector for constrained microcontrollers. The CUTE-YOLO family allows the **H** and **M** architecture parameters to be selected during model design and training using a standard YOLO-format dataset. For this competition demonstration, training is intentionally outside the scope: prepared models are provided for testing. These demonstrations run Noodle INT8 inference under μT-Kernel 3.0. Each model is packaged as a separate CUTE v2 `.cute` file and deployed over USB serial. **H** denotes the number of hybrid blocks, while **M** denotes the number of hidden head layers. The current demonstration uses **H6/M1**.
 
 ## Choose your demonstration
 
