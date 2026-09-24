@@ -1,0 +1,304 @@
+Building file: ../lib/libtm/libtm.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/lib/libtm/libtm.d" -MT"mtkernel_3/lib/libtm/libtm.o" -c -o "mtkernel_3/lib/libtm/libtm.o" "../lib/libtm/libtm.c"
+Building file: ../lib/libtk/fastlock.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/lib/libtk/fastlock.d" -MT"mtkernel_3/lib/libtk/fastlock.o" -c -o "mtkernel_3/lib/libtk/fastlock.o" "../lib/libtk/fastlock.c"
+Building file: ../lib/libtm/libtm_printf.c
+Building file: ../lib/libtk/fastmlock.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/lib/libtm/libtm_printf.d" -MT"mtkernel_3/lib/libtm/libtm_printf.o" -c -o "mtkernel_3/lib/libtm/libtm_printf.o" "../lib/libtm/libtm_printf.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/lib/libtk/fastmlock.d" -MT"mtkernel_3/lib/libtk/fastmlock.o" -c -o "mtkernel_3/lib/libtk/fastmlock.o" "../lib/libtk/fastmlock.c"
+Finished building: ../lib/libtm/libtm.c
+ 
+Building file: ../lib/libtk/kmalloc.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/lib/libtk/kmalloc.d" -MT"mtkernel_3/lib/libtk/kmalloc.o" -c -o "mtkernel_3/lib/libtk/kmalloc.o" "../lib/libtk/kmalloc.c"
+Finished building: ../lib/libtk/fastlock.c
+Finished building: ../lib/libtm/libtm_printf.c
+ 
+ 
+Finished building: ../lib/libtk/fastmlock.c
+Building file: ../kernel/usermain/usermain.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/usermain/usermain.d" -MT"mtkernel_3/kernel/usermain/usermain.o" -c -o "mtkernel_3/kernel/usermain/usermain.o" "../kernel/usermain/usermain.c"
+Building file: ../kernel/tstdlib/bitop.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tstdlib/bitop.d" -MT"mtkernel_3/kernel/tstdlib/bitop.o" -c -o "mtkernel_3/kernel/tstdlib/bitop.o" "../kernel/tstdlib/bitop.c"
+ 
+Building file: ../kernel/tstdlib/string.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tstdlib/string.d" -MT"mtkernel_3/kernel/tstdlib/string.o" -c -o "mtkernel_3/kernel/tstdlib/string.o" "../kernel/tstdlib/string.c"
+Finished building: ../lib/libtk/kmalloc.c
+ 
+Building file: ../kernel/tkernel/cpuctl.c
+Finished building: ../kernel/usermain/usermain.c
+Finished building: ../kernel/tstdlib/bitop.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/cpuctl.d" -MT"mtkernel_3/kernel/tkernel/cpuctl.o" -c -o "mtkernel_3/kernel/tkernel/cpuctl.o" "../kernel/tkernel/cpuctl.c"
+ 
+ 
+Building file: ../kernel/tkernel/device.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/device.d" -MT"mtkernel_3/kernel/tkernel/device.o" -c -o "mtkernel_3/kernel/tkernel/device.o" "../kernel/tkernel/device.c"
+Building file: ../kernel/tkernel/deviceio.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/deviceio.d" -MT"mtkernel_3/kernel/tkernel/deviceio.o" -c -o "mtkernel_3/kernel/tkernel/deviceio.o" "../kernel/tkernel/deviceio.c"
+Finished building: ../kernel/tstdlib/string.c
+ 
+Building file: ../kernel/tkernel/eventflag.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/eventflag.d" -MT"mtkernel_3/kernel/tkernel/eventflag.o" -c -o "mtkernel_3/kernel/tkernel/eventflag.o" "../kernel/tkernel/eventflag.c"
+Finished building: ../kernel/tkernel/cpuctl.c
+ 
+Building file: ../kernel/tkernel/int.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/int.d" -MT"mtkernel_3/kernel/tkernel/int.o" -c -o "mtkernel_3/kernel/tkernel/int.o" "../kernel/tkernel/int.c"
+Finished building: ../kernel/tkernel/device.c
+ 
+Building file: ../kernel/tkernel/klock.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/klock.d" -MT"mtkernel_3/kernel/tkernel/klock.o" -c -o "mtkernel_3/kernel/tkernel/klock.o" "../kernel/tkernel/klock.c"
+Finished building: ../kernel/tkernel/deviceio.c
+ 
+Building file: ../kernel/tkernel/mailbox.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/mailbox.d" -MT"mtkernel_3/kernel/tkernel/mailbox.o" -c -o "mtkernel_3/kernel/tkernel/mailbox.o" "../kernel/tkernel/mailbox.c"
+Finished building: ../kernel/tkernel/int.c
+ 
+Building file: ../kernel/tkernel/memory.c
+Finished building: ../kernel/tkernel/eventflag.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/memory.d" -MT"mtkernel_3/kernel/tkernel/memory.o" -c -o "mtkernel_3/kernel/tkernel/memory.o" "../kernel/tkernel/memory.c"
+ 
+Building file: ../kernel/tkernel/mempfix.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/mempfix.d" -MT"mtkernel_3/kernel/tkernel/mempfix.o" -c -o "mtkernel_3/kernel/tkernel/mempfix.o" "../kernel/tkernel/mempfix.c"
+Finished building: ../kernel/tkernel/klock.c
+ 
+Building file: ../kernel/tkernel/mempool.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/mempool.d" -MT"mtkernel_3/kernel/tkernel/mempool.o" -c -o "mtkernel_3/kernel/tkernel/mempool.o" "../kernel/tkernel/mempool.c"
+Finished building: ../kernel/tkernel/mailbox.c
+ 
+Building file: ../kernel/tkernel/messagebuf.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/messagebuf.d" -MT"mtkernel_3/kernel/tkernel/messagebuf.o" -c -o "mtkernel_3/kernel/tkernel/messagebuf.o" "../kernel/tkernel/messagebuf.c"
+Finished building: ../kernel/tkernel/memory.c
+ 
+Building file: ../kernel/tkernel/misc_calls.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/misc_calls.d" -MT"mtkernel_3/kernel/tkernel/misc_calls.o" -c -o "mtkernel_3/kernel/tkernel/misc_calls.o" "../kernel/tkernel/misc_calls.c"
+Finished building: ../kernel/tkernel/mempfix.c
+ 
+Building file: ../kernel/tkernel/mutex.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/mutex.d" -MT"mtkernel_3/kernel/tkernel/mutex.o" -c -o "mtkernel_3/kernel/tkernel/mutex.o" "../kernel/tkernel/mutex.c"
+Finished building: ../kernel/tkernel/mempool.c
+ 
+Building file: ../kernel/tkernel/objname.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/objname.d" -MT"mtkernel_3/kernel/tkernel/objname.o" -c -o "mtkernel_3/kernel/tkernel/objname.o" "../kernel/tkernel/objname.c"
+Finished building: ../kernel/tkernel/misc_calls.c
+ 
+Finished building: ../kernel/tkernel/mutex.c
+Building file: ../kernel/tkernel/power.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/power.d" -MT"mtkernel_3/kernel/tkernel/power.o" -c -o "mtkernel_3/kernel/tkernel/power.o" "../kernel/tkernel/power.c"
+Finished building: ../kernel/tkernel/messagebuf.c
+ 
+ 
+Building file: ../kernel/tkernel/semaphore.c
+Building file: ../kernel/tkernel/rendezvous.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/semaphore.d" -MT"mtkernel_3/kernel/tkernel/semaphore.o" -c -o "mtkernel_3/kernel/tkernel/semaphore.o" "../kernel/tkernel/semaphore.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/rendezvous.d" -MT"mtkernel_3/kernel/tkernel/rendezvous.o" -c -o "mtkernel_3/kernel/tkernel/rendezvous.o" "../kernel/tkernel/rendezvous.c"
+Finished building: ../kernel/tkernel/objname.c
+ 
+Building file: ../kernel/tkernel/task.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/task.d" -MT"mtkernel_3/kernel/tkernel/task.o" -c -o "mtkernel_3/kernel/tkernel/task.o" "../kernel/tkernel/task.c"
+Finished building: ../kernel/tkernel/power.c
+ 
+Building file: ../kernel/tkernel/task_manage.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/task_manage.d" -MT"mtkernel_3/kernel/tkernel/task_manage.o" -c -o "mtkernel_3/kernel/tkernel/task_manage.o" "../kernel/tkernel/task_manage.c"
+Finished building: ../kernel/tkernel/rendezvous.c
+ 
+Building file: ../kernel/tkernel/task_sync.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/task_sync.d" -MT"mtkernel_3/kernel/tkernel/task_sync.o" -c -o "mtkernel_3/kernel/tkernel/task_sync.o" "../kernel/tkernel/task_sync.c"
+Finished building: ../kernel/tkernel/semaphore.c
+ 
+Building file: ../kernel/tkernel/time_calls.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/time_calls.d" -MT"mtkernel_3/kernel/tkernel/time_calls.o" -c -o "mtkernel_3/kernel/tkernel/time_calls.o" "../kernel/tkernel/time_calls.c"
+Finished building: ../kernel/tkernel/task.c
+ 
+Building file: ../kernel/tkernel/timer.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/timer.d" -MT"mtkernel_3/kernel/tkernel/timer.o" -c -o "mtkernel_3/kernel/tkernel/timer.o" "../kernel/tkernel/timer.c"
+Finished building: ../kernel/tkernel/task_manage.c
+Finished building: ../kernel/tkernel/task_sync.c
+ 
+ 
+Building file: ../kernel/tkernel/wait.c
+Building file: ../kernel/tkernel/tkinit.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/tkinit.d" -MT"mtkernel_3/kernel/tkernel/tkinit.o" -c -o "mtkernel_3/kernel/tkernel/tkinit.o" "../kernel/tkernel/tkinit.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/tkernel/wait.d" -MT"mtkernel_3/kernel/tkernel/wait.o" -c -o "mtkernel_3/kernel/tkernel/wait.o" "../kernel/tkernel/wait.c"
+Finished building: ../kernel/tkernel/time_calls.c
+Finished building: ../kernel/tkernel/tkinit.c
+Finished building: ../kernel/tkernel/timer.c
+ 
+ 
+ 
+Building file: ../kernel/inittask/inittask.c
+Building file: ../kernel/sysinit/sysinit.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/inittask/inittask.d" -MT"mtkernel_3/kernel/inittask/inittask.o" -c -o "mtkernel_3/kernel/inittask/inittask.o" "../kernel/inittask/inittask.c"
+Building file: ../device/common/drvif/msdrvif.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/sysinit/sysinit.d" -MT"mtkernel_3/kernel/sysinit/sysinit.o" -c -o "mtkernel_3/kernel/sysinit/sysinit.o" "../kernel/sysinit/sysinit.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/device/common/drvif/msdrvif.d" -MT"mtkernel_3/device/common/drvif/msdrvif.o" -c -o "mtkernel_3/device/common/drvif/msdrvif.o" "../device/common/drvif/msdrvif.c"
+Finished building: ../kernel/tkernel/wait.c
+ 
+Building file: ../device/adc/adc.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/device/adc/adc.d" -MT"mtkernel_3/device/adc/adc.o" -c -o "mtkernel_3/device/adc/adc.o" "../device/adc/adc.c"
+Finished building: ../kernel/inittask/inittask.c
+Finished building: ../kernel/sysinit/sysinit.c
+ 
+ 
+Building file: ../device/i2c/i2c.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/device/i2c/i2c.d" -MT"mtkernel_3/device/i2c/i2c.o" -c -o "mtkernel_3/device/i2c/i2c.o" "../device/i2c/i2c.c"
+Building file: ../device/ser/ser.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/device/ser/ser.d" -MT"mtkernel_3/device/ser/ser.o" -c -o "mtkernel_3/device/ser/ser.o" "../device/ser/ser.c"
+Finished building: ../device/common/drvif/msdrvif.c
+ 
+Building file: ../device/ser/sysdepend/nrf5/ser_nrf5.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/device/ser/sysdepend/nrf5/ser_nrf5.d" -MT"mtkernel_3/device/ser/sysdepend/nrf5/ser_nrf5.o" -c -o "mtkernel_3/device/ser/sysdepend/nrf5/ser_nrf5.o" "../device/ser/sysdepend/nrf5/ser_nrf5.c"
+Finished building: ../device/adc/adc.c
+ 
+Building file: ../lib/libtm/sysdepend/microbit/tm_com.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/lib/libtm/sysdepend/microbit/tm_com.d" -MT"mtkernel_3/lib/libtm/sysdepend/microbit/tm_com.o" -c -o "mtkernel_3/lib/libtm/sysdepend/microbit/tm_com.o" "../lib/libtm/sysdepend/microbit/tm_com.c"
+Finished building: ../device/i2c/i2c.c
+ 
+Building file: ../lib/libtm/sysdepend/no_device/tm_com.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/lib/libtm/sysdepend/no_device/tm_com.d" -MT"mtkernel_3/lib/libtm/sysdepend/no_device/tm_com.o" -c -o "mtkernel_3/lib/libtm/sysdepend/no_device/tm_com.o" "../lib/libtm/sysdepend/no_device/tm_com.c"
+Finished building: ../device/ser/sysdepend/nrf5/ser_nrf5.c
+ 
+Finished building: ../device/ser/ser.c
+ 
+Building file: ../lib/libtk/sysdepend/cpu/nrf5/int_nrf5.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/lib/libtk/sysdepend/cpu/nrf5/int_nrf5.d" -MT"mtkernel_3/lib/libtk/sysdepend/cpu/nrf5/int_nrf5.o" -c -o "mtkernel_3/lib/libtk/sysdepend/cpu/nrf5/int_nrf5.o" "../lib/libtk/sysdepend/cpu/nrf5/int_nrf5.c"
+Building file: ../lib/libtk/sysdepend/cpu/nrf5/ptimer_nrf5.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/lib/libtk/sysdepend/cpu/nrf5/ptimer_nrf5.d" -MT"mtkernel_3/lib/libtk/sysdepend/cpu/nrf5/ptimer_nrf5.o" -c -o "mtkernel_3/lib/libtk/sysdepend/cpu/nrf5/ptimer_nrf5.o" "../lib/libtk/sysdepend/cpu/nrf5/ptimer_nrf5.c"
+Finished building: ../lib/libtm/sysdepend/microbit/tm_com.c
+ 
+Building file: ../lib/libtk/sysdepend/cpu/core/armv7m/int_armv7m.c
+Finished building: ../lib/libtm/sysdepend/no_device/tm_com.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m/int_armv7m.d" -MT"mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m/int_armv7m.o" -c -o "mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m/int_armv7m.o" "../lib/libtk/sysdepend/cpu/core/armv7m/int_armv7m.c"
+ 
+Building file: ../lib/libtk/sysdepend/cpu/core/armv7m/wusec_armv7m.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m/wusec_armv7m.d" -MT"mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m/wusec_armv7m.o" -c -o "mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m/wusec_armv7m.o" "../lib/libtk/sysdepend/cpu/core/armv7m/wusec_armv7m.c"
+Finished building: ../lib/libtk/sysdepend/cpu/nrf5/ptimer_nrf5.c
+ 
+Building file: ../kernel/sysdepend/microbit/devinit.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/sysdepend/microbit/devinit.d" -MT"mtkernel_3/kernel/sysdepend/microbit/devinit.o" -c -o "mtkernel_3/kernel/sysdepend/microbit/devinit.o" "../kernel/sysdepend/microbit/devinit.c"
+Finished building: ../lib/libtk/sysdepend/cpu/core/armv7m/int_armv7m.c
+ 
+Finished building: ../lib/libtk/sysdepend/cpu/nrf5/int_nrf5.c
+Building file: ../kernel/sysdepend/microbit/hw_setting.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/sysdepend/microbit/hw_setting.d" -MT"mtkernel_3/kernel/sysdepend/microbit/hw_setting.o" -c -o "mtkernel_3/kernel/sysdepend/microbit/hw_setting.o" "../kernel/sysdepend/microbit/hw_setting.c"
+ 
+Building file: ../kernel/sysdepend/microbit/power_save.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/sysdepend/microbit/power_save.d" -MT"mtkernel_3/kernel/sysdepend/microbit/power_save.o" -c -o "mtkernel_3/kernel/sysdepend/microbit/power_save.o" "../kernel/sysdepend/microbit/power_save.c"
+Finished building: ../lib/libtk/sysdepend/cpu/core/armv7m/wusec_armv7m.c
+ 
+Building file: ../kernel/sysdepend/cpu/nrf5/cpu_clock.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/sysdepend/cpu/nrf5/cpu_clock.d" -MT"mtkernel_3/kernel/sysdepend/cpu/nrf5/cpu_clock.o" -c -o "mtkernel_3/kernel/sysdepend/cpu/nrf5/cpu_clock.o" "../kernel/sysdepend/cpu/nrf5/cpu_clock.c"
+Finished building: ../kernel/sysdepend/microbit/devinit.c
+ 
+Building file: ../kernel/sysdepend/cpu/nrf5/vector_tbl.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/sysdepend/cpu/nrf5/vector_tbl.d" -MT"mtkernel_3/kernel/sysdepend/cpu/nrf5/vector_tbl.o" -c -o "mtkernel_3/kernel/sysdepend/cpu/nrf5/vector_tbl.o" "../kernel/sysdepend/cpu/nrf5/vector_tbl.c"
+Finished building: ../kernel/sysdepend/cpu/nrf5/cpu_clock.c
+ 
+Finished building: ../kernel/sysdepend/microbit/power_save.c
+Building file: ../kernel/sysdepend/cpu/core/armv7m/cpu_cntl.c
+Finished building: ../kernel/sysdepend/microbit/hw_setting.c
+ 
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/sysdepend/cpu/core/armv7m/cpu_cntl.d" -MT"mtkernel_3/kernel/sysdepend/cpu/core/armv7m/cpu_cntl.o" -c -o "mtkernel_3/kernel/sysdepend/cpu/core/armv7m/cpu_cntl.o" "../kernel/sysdepend/cpu/core/armv7m/cpu_cntl.c"
+ 
+Building file: ../kernel/sysdepend/cpu/core/armv7m/dispatch.S
+Building file: ../kernel/sysdepend/cpu/core/armv7m/exc_hdr.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/sysdepend/cpu/core/armv7m/exc_hdr.d" -MT"mtkernel_3/kernel/sysdepend/cpu/core/armv7m/exc_hdr.o" -c -o "mtkernel_3/kernel/sysdepend/cpu/core/armv7m/exc_hdr.o" "../kernel/sysdepend/cpu/core/armv7m/exc_hdr.c"
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/sysdepend/cpu/core/armv7m/dispatch.d" -MT"mtkernel_3/kernel/sysdepend/cpu/core/armv7m/dispatch.o" -c -o "mtkernel_3/kernel/sysdepend/cpu/core/armv7m/dispatch.o" "../kernel/sysdepend/cpu/core/armv7m/dispatch.S"
+Finished building: ../kernel/sysdepend/cpu/core/armv7m/dispatch.S
+Finished building: ../kernel/sysdepend/cpu/nrf5/vector_tbl.c
+ 
+ 
+Building file: ../kernel/sysdepend/cpu/core/armv7m/reset_hdl.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/sysdepend/cpu/core/armv7m/reset_hdl.d" -MT"mtkernel_3/kernel/sysdepend/cpu/core/armv7m/reset_hdl.o" -c -o "mtkernel_3/kernel/sysdepend/cpu/core/armv7m/reset_hdl.o" "../kernel/sysdepend/cpu/core/armv7m/reset_hdl.c"
+Building file: ../kernel/sysdepend/cpu/core/armv7m/interrupt.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" -MF"mtkernel_3/kernel/sysdepend/cpu/core/armv7m/interrupt.d" -MT"mtkernel_3/kernel/sysdepend/cpu/core/armv7m/interrupt.o" -c -o "mtkernel_3/kernel/sysdepend/cpu/core/armv7m/interrupt.o" "../kernel/sysdepend/cpu/core/armv7m/interrupt.c"
+Finished building: ../kernel/sysdepend/cpu/core/armv7m/cpu_cntl.c
+ 
+Finished building: ../kernel/sysdepend/cpu/core/armv7m/exc_hdr.c
+ 
+Building C file: ../app_sample/app_main.c
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -ffreestanding -std=gnu11 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" \
+	-MF"mtkernel_3/app_sample/app_main.d" -MT"mtkernel_3/app_sample/app_main.o" \
+	-c -o "mtkernel_3/app_sample/app_main.o" "../app_sample/app_main.c"
+Building C++ file: ../app_sample/cpp_test.cpp
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -std=gnu++17 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -fno-exceptions -fno-rtti -fno-threadsafe-statics -fno-use-cxa-atexit -DNOODLE_USE_INT8 -DNOODLE_USE_NONE -ffunction-sections -fdata-sections -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" \
+	-MF"mtkernel_3/app_sample/cpp_test.d" -MT"mtkernel_3/app_sample/cpp_test.o" \
+	-c -o "mtkernel_3/app_sample/cpp_test.o" "../app_sample/cpp_test.cpp"
+Finished building: ../kernel/sysdepend/cpu/core/armv7m/reset_hdl.c
+ 
+Building C++ file: ../app_sample/noodle_buffer.cpp
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -std=gnu++17 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -fno-exceptions -fno-rtti -fno-threadsafe-statics -fno-use-cxa-atexit -DNOODLE_USE_INT8 -DNOODLE_USE_NONE -ffunction-sections -fdata-sections -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" \
+	-MF"mtkernel_3/app_sample/noodle_buffer.d" -MT"mtkernel_3/app_sample/noodle_buffer.o" \
+	-c -o "mtkernel_3/app_sample/noodle_buffer.o" "../app_sample/noodle_buffer.cpp"
+In file included from ../app_sample/noodle.h:62,
+                 from ../app_sample/cpp_test.cpp:1:
+../app_sample/noodle_config.h:15:19: note: '#pragma message: Noodle numerical mode = INT8'
+   15 |   #pragma message "Noodle numerical mode = INT8"
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../app_sample/noodle_config.h:50:19: note: '#pragma message: file format = BIN'
+   50 |   #pragma message "file format = BIN"
+      |                   ^~~~~~~~~~~~~~~~~~~
+../app_sample/noodle_config.h:77:19: note: '#pragma message: pooling mode = MEAN'
+   77 |   #pragma message "pooling mode = MEAN"
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../kernel/sysdepend/cpu/core/armv7m/interrupt.c
+ 
+Building C++ file: ../app_sample/noodle_int8_layers.cpp
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -std=gnu++17 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -fno-exceptions -fno-rtti -fno-threadsafe-statics -fno-use-cxa-atexit -DNOODLE_USE_INT8 -DNOODLE_USE_NONE -ffunction-sections -fdata-sections -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" \
+	-MF"mtkernel_3/app_sample/noodle_int8_layers.d" -MT"mtkernel_3/app_sample/noodle_int8_layers.o" \
+	-c -o "mtkernel_3/app_sample/noodle_int8_layers.o" "../app_sample/noodle_int8_layers.cpp"
+In file included from ../app_sample/noodle_types.h:8,
+                 from ../app_sample/noodle_buffer.h:11,
+                 from ../app_sample/noodle_buffer.cpp:8:
+../app_sample/noodle_config.h:15:19: note: '#pragma message: Noodle numerical mode = INT8'
+   15 |   #pragma message "Noodle numerical mode = INT8"
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../app_sample/noodle_config.h:50:19: note: '#pragma message: file format = BIN'
+   50 |   #pragma message "file format = BIN"
+      |                   ^~~~~~~~~~~~~~~~~~~
+../app_sample/noodle_config.h:77:19: note: '#pragma message: pooling mode = MEAN'
+   77 |   #pragma message "pooling mode = MEAN"
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../app_sample/app_main.c
+Finished building: ../app_sample/cpp_test.cpp
+ 
+ 
+Building C++ file: ../app_sample/noodle_int8_math.cpp
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -std=gnu++17 -O0 -g3 -MMD -MP -mfpu=fpv4-sp-d16 -mfloat-abi=hard -fno-exceptions -fno-rtti -fno-threadsafe-statics -fno-use-cxa-atexit -DNOODLE_USE_INT8 -DNOODLE_USE_NONE -ffunction-sections -fdata-sections -D_MICROBIT_ -I"../include" -I"../config" -I"../kernel/knlinc" \
+	-MF"mtkernel_3/app_sample/noodle_int8_math.d" -MT"mtkernel_3/app_sample/noodle_int8_math.o" \
+	-c -o "mtkernel_3/app_sample/noodle_int8_math.o" "../app_sample/noodle_int8_math.cpp"
+Finished building: ../app_sample/noodle_buffer.cpp
+ 
+In file included from ../app_sample/noodle_int8_layers.cpp:2:
+../app_sample/noodle_config.h:15:19: note: '#pragma message: Noodle numerical mode = INT8'
+   15 |   #pragma message "Noodle numerical mode = INT8"
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../app_sample/noodle_config.h:50:19: note: '#pragma message: file format = BIN'
+   50 |   #pragma message "file format = BIN"
+      |                   ^~~~~~~~~~~~~~~~~~~
+../app_sample/noodle_config.h:77:19: note: '#pragma message: pooling mode = MEAN'
+   77 |   #pragma message "pooling mode = MEAN"
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+In file included from ../app_sample/noodle_int8_math.cpp:1:
+../app_sample/noodle_config.h:15:19: note: '#pragma message: Noodle numerical mode = INT8'
+   15 |   #pragma message "Noodle numerical mode = INT8"
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../app_sample/noodle_config.h:50:19: note: '#pragma message: file format = BIN'
+   50 |   #pragma message "file format = BIN"
+      |                   ^~~~~~~~~~~~~~~~~~~
+../app_sample/noodle_config.h:77:19: note: '#pragma message: pooling mode = MEAN'
+   77 |   #pragma message "pooling mode = MEAN"
+      |                   ^~~~~~~~~~~~~~~~~~~~~
+Finished building: ../app_sample/noodle_int8_math.cpp
+ 
+Finished building: ../app_sample/noodle_int8_layers.cpp
+ 
+Linker: mtkernel_3.elf
+arm-none-eabi-gcc  -mcpu=cortex-m4 -mthumb -ffreestanding -nostartfiles -O0 -g3 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wl,--gc-sections -T "../etc/linker/microbit/tkernel_map.ld" -Wl,-Map,"mtkernel_3.map" -o "mtkernel_3.elf" ./mtkernel_3/lib/libtm/libtm.o ./mtkernel_3/lib/libtm/libtm_printf.o  ./mtkernel_3/lib/libtk/fastlock.o ./mtkernel_3/lib/libtk/fastmlock.o ./mtkernel_3/lib/libtk/kmalloc.o  ./mtkernel_3/kernel/usermain/usermain.o  ./mtkernel_3/kernel/tstdlib/bitop.o ./mtkernel_3/kernel/tstdlib/string.o  ./mtkernel_3/kernel/tkernel/cpuctl.o ./mtkernel_3/kernel/tkernel/device.o ./mtkernel_3/kernel/tkernel/deviceio.o ./mtkernel_3/kernel/tkernel/eventflag.o ./mtkernel_3/kernel/tkernel/int.o ./mtkernel_3/kernel/tkernel/klock.o ./mtkernel_3/kernel/tkernel/mailbox.o ./mtkernel_3/kernel/tkernel/memory.o ./mtkernel_3/kernel/tkernel/mempfix.o ./mtkernel_3/kernel/tkernel/mempool.o ./mtkernel_3/kernel/tkernel/messagebuf.o ./mtkernel_3/kernel/tkernel/misc_calls.o ./mtkernel_3/kernel/tkernel/mutex.o ./mtkernel_3/kernel/tkernel/objname.o ./mtkernel_3/kernel/tkernel/power.o ./mtkernel_3/kernel/tkernel/rendezvous.o ./mtkernel_3/kernel/tkernel/semaphore.o ./mtkernel_3/kernel/tkernel/task.o ./mtkernel_3/kernel/tkernel/task_manage.o ./mtkernel_3/kernel/tkernel/task_sync.o ./mtkernel_3/kernel/tkernel/time_calls.o ./mtkernel_3/kernel/tkernel/timer.o ./mtkernel_3/kernel/tkernel/tkinit.o ./mtkernel_3/kernel/tkernel/wait.o  ./mtkernel_3/kernel/sysinit/sysinit.o  ./mtkernel_3/kernel/inittask/inittask.o  ./mtkernel_3/device/common/drvif/msdrvif.o  ./mtkernel_3/device/adc/adc.o  ./mtkernel_3/device/i2c/i2c.o  ./mtkernel_3/device/ser/ser.o  ./mtkernel_3/device/ser/sysdepend/nrf5/ser_nrf5.o ./mtkernel_3/lib/libtm/sysdepend/microbit/tm_com.o ./mtkernel_3/lib/libtm/sysdepend/no_device/tm_com.o  ./mtkernel_3/lib/libtk/sysdepend/cpu/nrf5/int_nrf5.o ./mtkernel_3/lib/libtk/sysdepend/cpu/nrf5/ptimer_nrf5.o ./mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m/int_armv7m.o ./mtkernel_3/lib/libtk/sysdepend/cpu/core/armv7m/wusec_armv7m.o ./mtkernel_3/kernel/sysdepend/microbit/devinit.o ./mtkernel_3/kernel/sysdepend/microbit/hw_setting.o ./mtkernel_3/kernel/sysdepend/microbit/power_save.o ./mtkernel_3/kernel/sysdepend/cpu/nrf5/cpu_clock.o ./mtkernel_3/kernel/sysdepend/cpu/nrf5/vector_tbl.o ./mtkernel_3/kernel/sysdepend/cpu/core/armv7m/cpu_cntl.o ./mtkernel_3/kernel/sysdepend/cpu/core/armv7m/dispatch.o ./mtkernel_3/kernel/sysdepend/cpu/core/armv7m/exc_hdr.o ./mtkernel_3/kernel/sysdepend/cpu/core/armv7m/interrupt.o ./mtkernel_3/kernel/sysdepend/cpu/core/armv7m/reset_hdl.o    ./mtkernel_3/app_sample/app_main.o   ./mtkernel_3/app_sample/cpp_test.o  ./mtkernel_3/app_sample/noodle_buffer.o  ./mtkernel_3/app_sample/noodle_int8_layers.o  ./mtkernel_3/app_sample/noodle_int8_math.o
+/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/ld: ./mtkernel_3/app_sample/noodle_int8_layers.o: in function `q_scale_equal(float, float)':
+/home/auralius/works/utkernel_microbit/mtkernel_3/build_make/../app_sample/noodle_int8_layers.cpp:68:(.text._ZL13q_scale_equalff+0x3a): undefined reference to `fmaxf'
+/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/ld: (fmaxf): Unknown destination type (ARM/Thumb) in ./mtkernel_3/app_sample/noodle_int8_layers.o
+/home/auralius/works/utkernel_microbit/mtkernel_3/build_make/../app_sample/noodle_int8_layers.cpp:68:(.text._ZL13q_scale_equalff+0x3a): dangerous relocation: unsupported relocation
+/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/ld: /home/auralius/works/utkernel_microbit/mtkernel_3/build_make/../app_sample/noodle_int8_layers.cpp:68:(.text._ZL13q_scale_equalff+0x4a): undefined reference to `fmaxf'
+/usr/lib/gcc/arm-none-eabi/14.2.1/../../../arm-none-eabi/bin/ld: (fmaxf): Unknown destination type (ARM/Thumb) in ./mtkernel_3/app_sample/noodle_int8_layers.o
+/home/auralius/works/utkernel_microbit/mtkernel_3/build_make/../app_sample/noodle_int8_layers.cpp:68:(.text._ZL13q_scale_equalff+0x4a): dangerous relocation: unsupported relocation
+collect2: error: ld returned 1 exit status
+make: *** [makefile:67: mtkernel_3.elf] Error 1
