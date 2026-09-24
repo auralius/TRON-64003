@@ -1,0 +1,8 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/semaphore.c:195:12:sem_chg_pri	24	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/semaphore.c:233:12:sem_rel_wai	16	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/semaphore.c:33:11:knl_semaphore_initialize	36	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/semaphore.c:57:12:tk_cre_sem	24	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/semaphore.c:109:12:tk_del_sem	24	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/semaphore.c:138:12:tk_sig_sem	32	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/semaphore.c:247:12:tk_wai_sem	56	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/semaphore.c:296:12:tk_ref_sem	16	static

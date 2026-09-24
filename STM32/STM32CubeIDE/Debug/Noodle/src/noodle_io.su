@@ -1,0 +1,35 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:8:6:void noodle_read_top_line(const char*, char*, size_t)	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:28:8:size_t noodle_read_bytes_until(NDL_File&, char, char*, size_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:43:6:bool noodle_fs_init(uint8_t, uint8_t, uint8_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:63:6:bool noodle_fs_init(uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:89:6:bool noodle_fs_init()	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:105:6:bool noodle_fs_init(uint8_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:146:8:size_t noodle_read_raw(NDL_File&, void*, size_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:155:8:size_t noodle_write_raw(NDL_File&, const void*, size_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:164:8:size_t noodle_read_float_block(NDL_File&, float*, size_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:178:7:float noodle_read_float(NDL_File&)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:191:6:byte noodle_read_byte(NDL_File&)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:205:8:int8_t noodle_read_q8(NDL_File&)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:218:6:void noodle_write_float(NDL_File&, float)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:227:6:void noodle_write_byte(NDL_File&, byte)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:238:6:void noodle_write_q8(NDL_File&, int8_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:246:7:float noodle_read_weight(NDL_File&, float, int32_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:256:8:size_t noodle_read_weight_block(NDL_File&, float*, size_t, float, int32_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:268:7:float noodle_read_weight_mem(const NoodleWeight*, uint32_t, float, int32_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:278:6:void noodle_copy_weight_mem(const NoodleWeight*, uint32_t, float*, uint32_t, float, int32_t)	4	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:285:6:void noodle_grid_weight_from_file(NDL_File&, float*, uint16_t, float, int32_t)	24	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:294:6:void noodle_delete_file(const char*)	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:298:6:void noodle_array_to_file(float*, const char*, uint16_t)	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:307:6:void noodle_array_to_file(float*, NDL_File&, uint16_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:314:6:void noodle_grid_to_file(byte*, const char*, uint16_t)	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:327:6:void noodle_grid_to_file(byte*, NDL_File&, uint16_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:338:6:void noodle_grid_to_file(float*, const char*, uint16_t)	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:351:6:void noodle_grid_to_file(float*, NDL_File&, uint16_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:364:6:void noodle_array_from_file(const char*, float*, uint16_t)	16	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:373:6:void noodle_array_from_file(NDL_File&, float*, uint16_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:380:6:void noodle_grid_from_file(const char*, byte*, uint16_t)	16	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:392:6:void noodle_grid_from_file(NDL_File&, byte*, uint16_t)	16	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:402:6:void noodle_grid_from_file(const char*, int8_t*, uint16_t)	16	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:414:6:void noodle_grid_from_file(NDL_File&, int8_t*, uint16_t)	16	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:424:6:void noodle_grid_from_file(const char*, float*, uint16_t)	16	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_io.cpp:436:6:void noodle_grid_from_file(NDL_File&, float*, uint16_t)	16	static

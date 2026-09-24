@@ -1,0 +1,13 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:5:16:int cute_model_probe()	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:10:24:const char* cute_model_status_c()	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:15:16:int cute_runtime_begin()	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:20:16:int cute_runtime_ready()	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:25:16:int cute_runtime_run_gray8(const uint8_t*)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:30:24:const char* cute_runtime_error_c()	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:35:26:const int8_t* cute_runtime_head_data()	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:40:21:uint32_t cute_runtime_head_bytes()	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:45:18:float cute_runtime_head_scale()	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:50:20:int32_t cute_runtime_head_zero_point()	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:55:21:uint32_t cute_runtime_head_crc32()	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:60:19:size_t cute_runtime_arena_used_bytes()	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_bridge.cpp:65:19:size_t cute_runtime_arena_capacity_bytes()	0	static

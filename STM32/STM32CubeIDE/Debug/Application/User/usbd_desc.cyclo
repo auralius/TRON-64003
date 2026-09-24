@@ -1,0 +1,7 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/usbd_desc.c:123:10:USBD_VCP_DeviceDescriptor	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/usbd_desc.c:135:10:USBD_VCP_LangIDStrDescriptor	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/usbd_desc.c:168:10:USBD_VCP_ManufacturerStrDescriptor	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/usbd_desc.c:148:10:USBD_VCP_ProductStrDescriptor	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/usbd_desc.c:199:10:USBD_VCP_ConfigStrDescriptor	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/usbd_desc.c:221:10:USBD_VCP_InterfaceStrDescriptor	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/usbd_desc.c:181:10:USBD_VCP_SerialStrDescriptor	1

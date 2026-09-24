@@ -1,0 +1,13 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:173:13:bool {anonymous}::run_split_conv(NoodleTensor*, NoodleTensor*, const ConvMem&, const ConvMem&, const char*)	4
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:252:13:bool {anonymous}::run_network()	35
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:415:16:int cute_runner_begin()	8
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:457:16:int cute_runner_ready()	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:462:16:int cute_runner_run_gray8(const uint8_t*)	11
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:475:24:const char* cute_runner_last_error()	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:480:26:const int8_t* cute_runner_head_data()	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:485:21:uint32_t cute_runner_head_bytes()	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:490:18:float cute_runner_head_scale()	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:495:20:int32_t cute_runner_head_zero_point()	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:500:21:uint32_t cute_runner_head_crc32()	5
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:507:19:size_t cute_runner_arena_used_bytes()	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/CUTE/cute_runner.cpp:512:19:size_t cute_runner_arena_capacity_bytes()	1

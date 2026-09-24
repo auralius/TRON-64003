@@ -1,0 +1,2 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/klock.c:27:13:knl_LockOBJ	40	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/klock.c:62:13:knl_UnlockOBJ	32	static

@@ -1,0 +1,4 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/lib/libtk/fastlock.c:54:13:Lock	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/lib/libtk/fastlock.c:64:13:Unlock	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/lib/libtk/fastlock.c:74:11:CreateLock	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/lib/libtk/fastlock.c:99:13:DeleteLock	2

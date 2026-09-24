@@ -1,0 +1,7 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/tim.c:31:6:MX_TIM1_Init	144	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/tim.c:96:6:MX_TIM16_Init	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/tim.c:123:6:HAL_TIM_PWM_MspInit	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/tim.c:139:6:HAL_TIM_Base_MspInit	16	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/tim.c:158:6:HAL_TIM_MspPostInit	40	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/tim.c:186:6:HAL_TIM_PWM_MspDeInit	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/tim.c:202:6:HAL_TIM_Base_MspDeInit	0	static

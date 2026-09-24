@@ -1,0 +1,11 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/wait.c:43:13:knl_wait_release_tmout	5
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/wait.c:22:13:knl_wait_release_ok	4
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/wait.c:28:13:knl_wait_release_ok_ercd	4
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/wait.c:34:13:knl_wait_release_ng	5
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/wait.c:65:13:knl_make_wait	3
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/wait.c:79:13:knl_make_wait_reltim	3
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/wait.c:97:13:knl_wait_delete	7
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/wait.c:111:11:knl_wait_tskid	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/wait.c:124:13:knl_gcb_make_wait	8
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/wait.c:143:13:knl_gcb_change_priority	5
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/wait.c:154:13:knl_gcb_top_of_wait_queue	3

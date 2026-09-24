@@ -1,0 +1,34 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:18:8:int8_t noodle_i8_clamp(int32_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:24:9:int32_t noodle_i8_saturating_rounding_doubling_high_mul(int32_t, int32_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:32:9:int32_t noodle_i8_rounding_divide_by_pot(int32_t, int)	4	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:41:9:int32_t noodle_i8_multiply_by_quantized_multiplier(int32_t, int32_t, int32_t)	4	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:55:6:bool noodle_quantize_multiplier(double, int32_t*, int32_t*)	24	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:84:9:int32_t noodle_quantize_float(float, float, int32_t)	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:92:7:float noodle_dequantize_int8(int8_t, float, int32_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:96:6:void noodle_quantize_array(const float*, int8_t*, size_t, float, int32_t)	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:104:6:void noodle_dequantize_array(const int8_t*, float*, size_t, float, int32_t)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:112:9:int32_t noodle_activation_min_relu(float, int32_t)	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:117:9:int32_t noodle_read_i32(NDL_File&)	16	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:129:6:void noodle_write_i32(NDL_File&, int32_t)	16	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:140:6:void noodle_tensor_init(NoodleTensor*)	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:149:6:void noodle_tensor_free(NoodleTensor*)	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:175:9:int8_t* noodle_i8_tensor_require_1d(NoodleTensor*, uint16_t, uint16_t, float, int32_t)	32	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:179:9:int8_t* noodle_i8_tensor_require_2d(NoodleTensor*, uint16_t, uint16_t, float, int32_t)	32	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:183:9:int8_t* noodle_i8_tensor_require_vector(NoodleTensor*, uint16_t, float, int32_t)	24	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:188:8:size_t noodle_tensor_size(const NoodleTensor*)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:194:8:size_t noodle_tensor_capacity(const NoodleTensor*)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:197:8:size_t noodle_tensor_capacity_bytes(const NoodleTensor*)	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:212:10:uint16_t noodle_i8_pool2d(NoodleTensor*, const NoodleI8Pool&, NoodleTensor*)	88	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:253:10:uint16_t noodle_i8_pool1d(NoodleTensor*, const NoodleI8Pool&, NoodleTensor*)	56	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:283:10:uint16_t noodle_i8_gap(NoodleTensor*, const NoodleI8Requant&, NoodleTensor*)	56	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:308:10:uint16_t noodle_i8_gmp(NoodleTensor*, NoodleTensor*)	32	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:324:10:uint16_t noodle_i8_flat(NoodleTensor*, NoodleTensor*)	32	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:339:10:uint16_t noodle_i8_reshape_hwc_to_chw(NoodleTensor*, uint16_t, uint16_t, NoodleTensor*)	48	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:354:10:uint16_t noodle_i8_concat(NoodleTensor*, NoodleTensor*, NoodleTensor*)	64	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:370:10:uint16_t noodle_i8_relu(NoodleTensor*)	4	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:378:6:void noodle_i8_find_max(const NoodleTensor*, uint16_t*, int8_t*)	20	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:391:10:uint16_t noodle_i8_lut(NoodleTensor*, const int8_t*, float, int32_t, NoodleTensor*)	40	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:404:10:uint16_t noodle_i8_softmax(NoodleTensor*, const NoodleI8SoftmaxLUT&, NoodleTensor*)	48	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:430:6:void noodle_build_softmax_lut(float, uint16_t*)	32	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:441:6:void noodle_build_sigmoid_lut(float, int32_t, int8_t*)	48	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_math.cpp:452:6:void noodle_build_tanh_lut(float, int32_t, int8_t*)	40	static

@@ -1,0 +1,10 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_src/usermain.c:223:13:infer_task	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_src/usermain.c:199:13:lcd_task	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_src/usermain.c:175:13:control_task	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_src/usermain.c:135:13:heartbeat_task	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_src/usermain.c:2541:13:fatal_blink	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_src/usermain.c:885:12:cute_cdc_send_blocking	24	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_src/usermain.c:371:12:cute_serial_validate_and_build_min2.constprop	48	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_src/usermain.c:1181:12:cute_send_dataset_sample_if_ready.isra	336	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_src/usermain.c:1459:13:serial_task	200	static,ignoring_inline_asm
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_src/usermain.c:2567:5:usermain	200	static

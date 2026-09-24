@@ -1,0 +1,15 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:9:9:LCD_Init	5
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:25:6:LCD_Test	5
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:58:6:LCD_SetBrightness	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:68:10:LCD_GetBrightness	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:75:6:LCD_SoftPWMEnable	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:82:9:LCD_SoftPWMIsEnable	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:87:6:LCD_SoftPWMCtrlInit	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:103:6:LCD_SoftPWMCtrlDeInit	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:109:6:LCD_SoftPWMCtrlRun	3
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:124:6:HAL_TIM_PeriodElapsedCallback	4
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:130:6:LCD_FillScreen	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:135:6:LCD_FillRect	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:140:6:LCD_DrawRGB565	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:171:6:LCD_ShowChar	30
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/lcd.c:229:6:LCD_ShowString	34

@@ -1,0 +1,13 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:163:13:NoodleData* noodle_buffer_require(NoodleBuffer*, size_t)	28
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:217:6:void noodle_buffer_free(NoodleBuffer*)	19
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:152:6:void noodle_buffer_init(NoodleBuffer*)	13
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:284:8:size_t noodle_buffer_capacity(const NoodleBuffer*)	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:288:8:size_t noodle_buffer_capacity_bytes(const NoodleBuffer*)	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:294:8:size_t noodle_buffer_arena_capacity()	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:298:8:size_t noodle_buffer_arena_used()	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:302:8:size_t noodle_buffer_arena_capacity_bytes()	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:306:8:size_t noodle_buffer_arena_used_bytes()	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:310:8:size_t noodle_buffer_arena_buffer_count()	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:314:8:size_t noodle_buffer_arena_realloc_count()	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:318:8:size_t noodle_buffer_arena_move_count()	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_buffer.cpp:322:8:size_t noodle_buffer_arena_moved_bytes()	1

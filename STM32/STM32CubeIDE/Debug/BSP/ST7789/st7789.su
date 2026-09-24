@@ -1,0 +1,5 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/st7789.c:85:16:st7789_set_window	32	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/st7789.c:119:9:ST7789_Init	56	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/st7789.c:214:6:ST7789_FillRect	272	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/st7789.c:245:6:ST7789_FillScreen	16	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Drivers/BSP/ST7789/st7789.c:250:6:ST7789_DrawRGB565	16	static

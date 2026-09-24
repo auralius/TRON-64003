@@ -1,0 +1,7 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/mempfix.c:197:12:knl_mpf_chg_pri	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/mempfix.c:34:11:knl_fix_memorypool_initialize	4	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/mempfix.c:59:12:tk_cre_mpf	32	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/mempfix.c:154:12:tk_del_mpf	32	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/mempfix.c:214:12:tk_get_mpf	56	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/mempfix.c:271:12:tk_rel_mpf	40	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/mempfix.c:322:12:tk_ref_mpf	24	static

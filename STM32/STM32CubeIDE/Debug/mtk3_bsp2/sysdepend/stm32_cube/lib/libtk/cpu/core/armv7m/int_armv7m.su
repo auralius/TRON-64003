@@ -1,0 +1,6 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/core/armv7m/int_armv7m.c:35:13:set_basepri	0	static,ignoring_inline_asm
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/core/armv7m/int_armv7m.c:44:11:get_basepri	0	static,ignoring_inline_asm
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/core/armv7m/int_armv7m.c:55:11:disint	0	static,ignoring_inline_asm
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/core/armv7m/int_armv7m.c:69:13:SetCpuIntLevel	0	static,ignoring_inline_asm
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/core/armv7m/int_armv7m.c:77:12:GetCpuIntLevel	0	static,ignoring_inline_asm
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/sysdepend/stm32_cube/lib/libtk/cpu/core/armv7m/int_armv7m.c:95:13:EnableInt_nvic	4	static,ignoring_inline_asm

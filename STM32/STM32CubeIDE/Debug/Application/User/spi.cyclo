@@ -1,0 +1,3 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/spi.c:30:6:MX_SPI4_Init	2
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/spi.c:72:6:HAL_SPI_MspInit	3
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Src/spi.c:112:6:HAL_SPI_MspDeInit	2

@@ -1,0 +1,9 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/messagebuf.c:94:12:knl_mbf_wakeup	48	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/messagebuf.c:250:12:knl_mbf_chg_pri	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/messagebuf.c:268:12:knl_mbf_rel_wai	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/messagebuf.c:34:11:knl_messagebuffer_initialize	4	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/messagebuf.c:116:12:tk_cre_mbf	32	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/messagebuf.c:211:12:tk_del_mbf	32	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/messagebuf.c:282:12:tk_snd_mbf	56	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/messagebuf.c:380:13:tk_rcv_mbf	64	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/mtkernel/kernel/tkernel/messagebuf.c:437:12:tk_ref_mbf	32	static

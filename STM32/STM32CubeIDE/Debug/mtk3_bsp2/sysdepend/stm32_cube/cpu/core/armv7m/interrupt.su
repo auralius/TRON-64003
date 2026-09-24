@@ -1,0 +1,5 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/sysdepend/stm32_cube/cpu/core/armv7m/interrupt.c:33:13:knl_hll_inthdr	8	static,ignoring_inline_asm
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/sysdepend/stm32_cube/cpu/core/armv7m/interrupt.c:52:13:knl_systim_inthdr	8	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/sysdepend/stm32_cube/cpu/core/armv7m/interrupt.c:65:11:knl_define_inthdr	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/sysdepend/stm32_cube/cpu/core/armv7m/interrupt.c:87:13:knl_return_inthdr	0	static
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/mtk3_bsp2/sysdepend/stm32_cube/cpu/core/armv7m/interrupt.c:97:11:knl_init_interrupt	0	static

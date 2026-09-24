@@ -1,0 +1,16 @@
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:95:13:bool q_conv_geom(uint16_t, uint16_t, uint16_t, uint16_t, QGeom*)	9
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:159:13:0(const NoodleTensor*, uint16_t, uint16_t, const int8_t*, int32_t, int32_t, int32_t, uint16_t, uint16_t, int32_t, int32_t, int32_t, int32_t, int8_t*)	18
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:50:6:void noodle_i8_temp_buffers_free()	1
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:178:10:uint16_t noodle_i8_conv2d(NoodleTensor*, const ConvMem&, NoodleTensor*)	17
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:205:10:uint16_t noodle_i8_conv2d(NoodleTensor*, const Conv&, NoodleTensor*)	17
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:270:10:uint16_t noodle_i8_conv1d(NoodleTensor*, const ConvMem&, NoodleTensor*)	29
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:299:10:uint16_t noodle_i8_conv1d(NoodleTensor*, const Conv&, NoodleTensor*)	17
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:363:10:uint16_t noodle_i8_dwconv2d(NoodleTensor*, const ConvMem&, NoodleTensor*)	33
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:398:10:uint16_t noodle_i8_dwconv2d(NoodleTensor*, const Conv&, NoodleTensor*)	20
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:491:10:uint16_t noodle_i8_conv_transpose2d(NoodleTensor*, const ConvMem&, NoodleTensor*)	44
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:518:10:uint16_t noodle_i8_conv_transpose2d(NoodleTensor*, const Conv&, NoodleTensor*)	21
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:569:10:uint16_t noodle_i8_fcn(NoodleTensor*, const FCNMem&, NoodleTensor*)	21
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:593:10:uint16_t noodle_i8_fcn(NoodleTensor*, const FCNFile&, NoodleTensor*)	15
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:632:10:uint16_t noodle_i8_conv2d(NoodleTensor*, const ConvProgmem&, NoodleTensor*)	21
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:665:10:uint16_t noodle_i8_dwconv2d(NoodleTensor*, const ConvProgmem&, NoodleTensor*)	38
+/home/auralius/works/STM32H743/08-DCMI2LCD_CubeIDE/Noodle/src/noodle_int8_layers.cpp:707:10:uint16_t noodle_i8_fcn(NoodleTensor*, const FCNProgmem&, NoodleTensor*)	1
