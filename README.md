@@ -14,3 +14,7 @@ CUTE-YOLO is a compact single-class object detector for constrained microcontrol
 Both boards accept compatible `.cute` packages through the serial deployment workflow. Check each board's reported capability and size limit before uploading. The micro:bit tester's **Test on Device** tab sends computer images to the micro:bit; the STM32 uses its own camera and K1 button instead.
 
 The detector originated in the [CUTE-YOLO ESP32 project](https://github.com/Student-Embedded-Control-and-AI-Fest/Cute-YOLO). The guides above describe these μT-Kernel demonstrations and their board-specific instructions.
+
+## Descriptive Poster
+
+![](https://github.com/auralius/TRON-64003/blob/main/CUTE_YOLO_detailed_poster.png)
